@@ -9,12 +9,34 @@
 
     
     <style>
+        
 
-@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+        
+       body{
+           font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+           
+       }
+
+       h2{
+           font-size: 3em;
+           text-align: center;
+       }
 
 h1{
-    font-family: 'Italianno', cursive;
+    
     font-size: 4em;
+}
+
+nav{
+    
+    padding: 30px;
+    text-align: center;
+    font-size: 2em;
+
+}
+
+nav >a{
+    text-decoration: none;
 }
 
     
@@ -22,14 +44,16 @@ h1{
             display: inline-block;
             border: 1px solid white ;
             width: 261px;
-            height: 261px;px;
-            border-radius: 5px;
+            height: 261px;
+            border-radius: 130.5px;
         }
 
         div#q1{
             background-image: url("imagens/casamento.jpg");
             background-position: center;
             background-size: 394px 261px;
+            box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.767);
+           
             
         }
 
@@ -37,18 +61,21 @@ h1{
             background-image: url("imagens/moto.jpg");
             background-position: center;
             background-size: 418px 261px ;
+            box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.767);
         }
 
         div#q3{
             background-image: url("imagens/tigre.jpg");
             background-position: center;
             background-size: 435px 261px ;
+            box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.767);
         }
 
         div#q4{
             background-image: url("imagens/japa.jpg");
             background-position: center;
             background-size: 418px 261px ;
+            box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.767);
         }
 
         h1{
@@ -56,35 +83,88 @@ h1{
             color: rgb(0, 0, 0);
         }
 
+        div.nova {
+           
+            width: 300px;
+            height: 261px;
+            
+
+            
+            }
+
+           div#texto >p{
+               text-align: center;
+               text-indent: 30px;
+           }
+            
 
     </style>
     
 </head>
 <body>
-    <h1>
-        fotografias
-    </h1>
-    
-    <div class="quadrado" id="q1" >
-      
+    <header>
+        <h1>
+            Fotografias <br>
+            em alto nivel <br>
+            qualidade garantida <br>
+            e muita estupidez
+        </h1>
+    </header>
 
-    </div>
-    <div class="quadrado" id="q2">
+    
+        
+        <nav>
+            <a href="#">Quem somos</a>
+            <a href="#">Contato</a>
+            <a href="#">Eventos</a>
+            <a href="#">Navegação</a>
+        </nav>
+
+        <main>
+        </nav>
+        
+        <div class="quadrado" id="q1" >
+        
+        </div>
+        <div class="quadrado" id="q2">
+        
+        </div>
+        
+        </div>
+        <div class="quadrado" id="q3">
+        
+        
+        </div>
+        
+        </div>
+        <div class="quadrado" id="q4">
+        
+        
+        </div>
+
+        <h2>Considerações sobre a pagina</h2>
+
+        <div class="nova" id="texto" >
+            <p> "Site criado para fins didaticos, não significando que, o shape inexplicavel não pode ser obtido
+                por meios legais, didaticos e semanticos, o comprometimento do autor desse texto com a verdade, é 
+                praticamente nula... <br>
+                Enfim, não espere logíca ou um português correto." 
+            </p>
+
+            
+
+        </div>
+
         
 
-    </div>
+        </div>
 
-</div>
-<div class="quadrado" id="q3">
+        <footer>
+            Site criado orgulhosamente por: Felipe Matheus Aguiar Melo
+        </footer>
+        </main>
+
     
-
-</div>
-
-</div>
-<div class="quadrado" id="q4">
-    
-
-</div>
     
 </body>
 </html>
